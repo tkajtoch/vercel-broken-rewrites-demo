@@ -8,7 +8,7 @@ const nextConfig = {
       },
       {
         source: '/b/:path*',
-        destination: 'https://vercel-broken-rewrites-demo-app-b.vercel.app/:path*'
+        destination: 'https://vercel-broken-rewrites-demo-app-b.vercel.app/b/:path*'
       },
       {
         source: '/the-file',
