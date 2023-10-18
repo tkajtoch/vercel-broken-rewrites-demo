@@ -7,6 +7,10 @@ const nextConfig = {
         destination: 'https://jsonplaceholder.typicode.com/:path*'
       },
       {
+        source: '/b',
+        destination: 'https://vercel-broken-rewrites-demo-app-b.vercel.app/b'
+      },
+      {
         source: '/b/:path*',
         destination: 'https://vercel-broken-rewrites-demo-app-b.vercel.app/b/:path*'
       },
